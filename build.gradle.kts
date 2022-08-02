@@ -4,7 +4,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import org.gradle.nativeplatform.platform.internal.DefaultNativePlatform
 import org.jetbrains.kotlin.utils.addToStdlib.ifTrue
 
-group = "org.openrndr.template"
+group = "com.github.sidec.openrndr.fastnoiselite.glsl"
 version = "0.4.0"
 
 val applicationMainClass = "FastNoiseLiteMainKt"

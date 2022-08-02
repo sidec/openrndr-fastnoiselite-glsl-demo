@@ -7,7 +7,6 @@ import org.openrndr.extra.parameters.DoubleParameter
 import org.openrndr.extra.parameters.IntParameter
 import org.openrndr.extra.parameters.OptionParameter
 import org.openrndr.math.IntVector3
-import org.openrndr.math.Vector2
 import org.openrndr.math.Vector3
 import java.nio.file.Paths
 
@@ -83,7 +82,6 @@ fun main() = application {
             var uDomainWarpAmp: Double by parameters
             var uDomainWarpType: Int by parameters
             var uDomainWarpFractal: Int by parameters
-            var uOffset: Vector2 by parameters
             var uFractalType: Int by parameters
             var uNoiseType: Int by parameters
             var uRotation3dType: Int by parameters
@@ -210,7 +208,6 @@ fun main() = application {
                 uCellularJitterMod = cellular_jitter_mod
                 uGain = gain
                 uDomainWarpAmp = domain_warp_amp
-                uOffset = Vector2.ZERO
             }
         }
 
