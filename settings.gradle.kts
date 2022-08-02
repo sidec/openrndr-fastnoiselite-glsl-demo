@@ -1,5 +1,5 @@
 enableFeaturePreview("VERSION_CATALOGS")
-rootProject.name = "openrndr-template"
+rootProject.name = "openrndr-fastnoiselite-glsl-demo"
 
 val openrndrUseSnapshot = false
 val orxUseSnapshot = false
